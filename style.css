@@ -1,0 +1,115 @@
+.color-marron{
+    color: rgb(160, 4, 4);
+}
+
+#pie{
+    background-color: rgb(61, 60, 60);
+    overflow: hidden;
+}
+#imagenes{
+    background-color: black;
+    background-image: url(../img-pelu/125662980-peines-tijeras-y-herramientas-de-peluquería-en-la-mesa-de-trabajo-del-salón-de-belleza-en-el-patrón-.webp);
+}
+.color-blanco{
+    color: white;
+}
+
+.letraGrande{
+    font-size: 50px;
+}
+.letramedia{
+    font-size: 20px;
+}
+.letraparrafo{
+    font-size: 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Vesper Libre', serif;
+    font-weight: 300;
+}
+ul{
+    list-style-type: none;
+}
+.typeletter{
+    font-family: 'Vesper Libre', serif;
+}
+.textoUno{
+    text-align: justify;  
+    line-height: 1.6px;
+}
+.container_marcos{
+    color: white;
+    font-size: 25px;
+    border: 2px solid brown;
+    text-decoration: none;
+    border-radius: 10px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Vesper Libre', serif;
+    font-size: 25px;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+a:hover{
+    background-color: gray;
+    transition: background-color .5s;
+}
+    
+#pelu{
+    background-color: rgb(185, 154, 114);
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fmx.bestdealplus.com%2Fproduct%2F11343942%2FKobucc-Lampara-nordica-para-mesita-de-noche-luz-de-pared-negra-dorada-pendiente-moderno-candelabros-de-fondo-de-TV-con-pantalla-de-vidrio-para-escalera-peluqueria&psig=AOvVaw3B5_pTsIK95jd99rbsGDX7&ust=1645739749954000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjOmNHolvYCFQAAAAAdAAAAABAP);
+}
+.container_grid{
+    display: grid;
+    width: 1200px;
+    height: auto;
+    padding: 10px;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-areas:
+    "img img"
+    "img img"
+    "header"
+    "main"
+    "aside"
+    "footer"
+    "body";
+}
+.container_grid-trabajos{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-area:
+    "trabajos"
+    "Alisados Bucles Tintura"
+    "Fade-Medio" ;
+}
+@media (max-width: 598px){
+    header{
+        height: 200px;
+    }
+    main{
+        height: 200px;
+    }
+    footer{
+        height: 200px;
+    }
+    .container_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "main"
+        "aside"
+        "footer";
+    }
+}
+
+
+
+
+
