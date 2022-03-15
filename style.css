@@ -108,8 +108,16 @@ a:hover{
         "footer";
     }
 }
-
-
-
-
-
+.object{
+    width: 310px;
+    height: 300px;
+    background: url(./img-pelu/remera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 2s;
+}
+.object:hover{
+    background: url(./img-pelu/remera2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
