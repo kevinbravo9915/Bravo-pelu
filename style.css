@@ -18,7 +18,7 @@
     font-size: 50px;
 }
 .letramedia{
-    font-size: 20px;
+    font-size: 50px;
 }
 .letraparrafo{
     font-size: 25px;
@@ -120,4 +120,14 @@ a:hover{
     background: url(./img-pelu/remera2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.row2{
+    background-color: rgb(71, 71, 71);
+}
+.row1{
+    background-color: rgb(71, 71, 71);
+}
+#imagenes1 img{
+    width: 300px;
+    height: 300px;
 }
